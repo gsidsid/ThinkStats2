@@ -6,6 +6,8 @@ I believe the only accurate understanding of how the two groups differ can be fo
 
 ## About the General Social Survey
 
+The General Social Survey (GSS) contains responses to a variety of demographic, behavioral, attitudinal, and special interest questions. The survey has been conducted for about 80 years, and is widely considered one of the best sources of sociological and attitudinal data covering the United States. For the purposes of this project, the GSS 'polviews' variable was used, and contains about 50,000 responses to a question regarding how conservative an individual believed they are.
+
 ## Trends
 
 After going through the variables in GSS I had available to me, I chose a few variables I thought would greatly differ between liberals and conservatives, and analyzed each of the variables’ distributions, as well as their codewords. The variables I ended up choosing were all categorical in nature, and dealt with the respondents’ trust in others, belief in fairness, and personal happiness.
@@ -23,3 +25,4 @@ After going through the variables in GSS I had available to me, I chose a few va
 ![](figures/age.jpg)
 
 ## Conclusions
+
