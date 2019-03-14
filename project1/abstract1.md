@@ -6,3 +6,4 @@ I looked through data from the General Social Survey (GSS) to gain a better unde
 
 It is possible the GSS contains variables with higher effect sizes that also deserve to be on this list, but accurately conducting an analysis of the entire dataset requires finding and removing codewords from every column, which is particularly time-intensive. It should be noted the three differences described above are a result of first finding the maximum effect sizes of the variables without the codewords removed, in an attempt to make an initial guess.
 
+[Read more](report1.md)
