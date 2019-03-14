@@ -5,8 +5,9 @@
 ## Trends
 
 ### Attendance at religious events
-
-<img src="figures/attend.jpg" alt="attend" width="800" style="text-align:center"/>
+<p align="center">
+  <img src="figures/attend.jpg" alt="attend" width="650"/>
+</p>
 
 ### Opinions on same-sex relationships
 
