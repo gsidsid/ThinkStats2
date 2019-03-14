@@ -6,7 +6,7 @@
 
 ### Attendance at religious events
 
-![](figures/attend.jpg)
+<img src="figures/attend.jpg" alt="attend" width="200"/>
 
 ### Opinions on same-sex relationships
 
