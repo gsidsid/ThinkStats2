@@ -20,13 +20,13 @@ After making this guess, and removing the variables' associated codewords, the t
 2. 'attend': How frequently does the respondent attend religious events?
 3. 'age': What is the respondent's age?
 
-The variables' relationships with conservativity are described in detail below, in order of how insightful I found understanding them.
+The variables' relationships with conservativity are described in detail below, in order of how insightful I found them.
 
 ### Attendance at religious events
 
 ![](figures/attend.jpg)
 
-This trend is strictly increasing. Explanation of the frequency tiers, which are somewhat logarithmic in nature.
+This was a variable I didn't expect to see in the data nearly as much as I did the others described here. There is a strictly
 
 ### Opinions on same-sex relationships
 
