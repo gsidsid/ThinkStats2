@@ -38,7 +38,7 @@ Across both Liberals and Conservatives, opinions on the matter appear to be fair
 
 ![](figures/age.jpg)
 
-Liberals tend to be younger than Conservatives, but not by much. The average Conservative in the dataset is 46.7 years old, while the average Liberal is 41.8 years old. Between Liberals and Conservatives, there is an effect size of 0.29.
+Liberals tend to be younger than Conservatives, but not by much. The average Conservative in the dataset is 46.7 years old, while the average Liberal is 41.8 years old. Between Liberals and Conservatives, there is a lesser, but considerable effect size of 0.29.
 
 ## Conclusions
 
