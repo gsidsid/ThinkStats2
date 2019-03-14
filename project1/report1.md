@@ -6,14 +6,14 @@
 
 ### Attendance at religious events
 
-![Alt text](figures/attend.jpg | width=500)
+![](figures/attend.jpg | width=500)
 
 ### Opinions on same-sex relationships
 
-![Alt text](figures/homosex.jpg | width=500)
+![](figures/homosex.jpg | width=500)
 
 ### Age
 
-![Alt text](figures/age.jpg | width=500)
+![](figures/age.jpg | width=500)
 
 ## Conclusions
