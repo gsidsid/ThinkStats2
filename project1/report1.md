@@ -6,7 +6,7 @@ I believe the only accurate understanding of how the two groups differ can be fo
 
 ## About the General Social Survey
 
-The General Social Survey (GSS) contains responses to a variety of demographic, behavioral, attitudinal, and special interest questions. The survey has been conducted for about 80 years, and is widely considered one of the best sources of sociological and attitudinal data covering the United States. For the purposes of this project, the GSS 'polviews' variable was used, and contains about 50,000 responses to a question regarding how conservative an individual believed they are.
+The General Social Survey (GSS) contains responses to a variety of demographic, behavioral, attitudinal, and special interest questions. The survey has been conducted for about 80 years, and is widely considered one of the best sources of sociological and attitudinal data covering the United States. For the purposes of this project, the GSS 'polviews' variable was used, and contains about 50,000 responses to a question regarding how conservative an individual believed they are. Data was gathered annually for this variable from 1972 through 2016.
 
 ## Trends
 
@@ -41,6 +41,8 @@ It is also important that the GSS data being used contains data gathered since 1
 ![](figures/age.jpg)
 
 Liberals tend to be younger than Conservatives, but not by much. The average Conservative in the dataset is 46.7 years old, while the average Liberal is 41.8 years old. Between Liberals and Conservatives, there is a lesser, but considerable effect size of 0.29.
+
+
 
 A CDF plot is also useful here in visualizing the distributions of age between the two groups. As with the above, Conservatives can be seen here to be slightly older than Liberals.
 
