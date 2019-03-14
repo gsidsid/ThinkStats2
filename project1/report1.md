@@ -26,3 +26,4 @@ After going through the variables in GSS I had available to me, I chose a few va
 
 ## Conclusions
 
+Although some of the trends explored here fit a lot of the generalizations we could’ve made already regarding what conservatives and liberals may hold different opinions on, exploring the data behind them exposes both trends that are not immediately obvious and some interesting nuances in the data itself. For one, I was unaware that there would any trend between attendance at religious events and conservativity, but data analysis here yields an effect size of 0.44 across frequency tiers ranging from 0 (for never having attended a religious event to 8 (for attending a religious event daily). After visualizing the trend, I could clearly observe the constant increase in frequency of attendance with increasing levels of conservativity. 
