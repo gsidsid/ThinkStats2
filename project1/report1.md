@@ -6,7 +6,7 @@ I believe the only accurate understanding of how the two groups differ can be fo
 
 ## About the General Social Survey
 
-The General Social Survey (GSS) contains responses to a variety of demographic, behavioral, attitudinal, and special interest questions. The survey has been conducted for about 80 years, and is widely considered one of the best sources of sociological and attitudinal data covering the United States. For the purposes of this project, the GSS 'polviews' variable was used, and contains about 50,000 responses to a question regarding how conservative an individual believed they are.
+The General Social Survey (GSS) contains responses to a variety of demographic, behavioral, attitudinal, and special interest questions. The survey has been conducted for about 80 years, and is widely considered one of the best sources of sociological and attitudinal data covering the United States. For the purposes of this project, the GSS 'polviews' variable was used, and contains about 50,000 responses to a question regarding how conservative an individual believed they are. Data was gathered annually for this variable from 1972 through 2016.
 
 ## Trends
 
@@ -26,19 +26,27 @@ The variables' relationships with conservativity are described in detail below, 
 
 ![](figures/attend.jpg)
 
-This was a variable I didn't expect to see in the data nearly as much as I did the others described here. There is a strictly
+This was a variable I didn't expect to see in the data nearly as much as I did the others described here. The more conservative a respondent is, the more likely they are to attend religious events with greater frequency. There is a quite marked trend here, as the frequency of attendance appears to strictly increase with conservativity.
 
 ### Opinions on same-sex relationships
 
 ![](figures/homosex.jpg)
 
-Across both Liberals and Conservatives, opinions on the matter appear to be fairly polarized. Either respondents believe there is nothing wrong at all with same-sex relationships, or they believe same-sex relationships are always wrong, with very little middle ground. As we may have expected, however, the proportion of Conservatives that believe same-sex relationships are always wrong is far higher than the proportion of Liberals that believe the same thing. Between Liberals and Conservatives, there is a substantial Cohen effect size of 0.67.
+Across both Liberals and Conservatives, opinions on the matter appear to be fairly polarized. Either respondents believe there is nothing wrong at all with same-sex relationships, or they believe same-sex relationships are always wrong, with very little middle ground. As we may have expected, however, the proportion of Conservatives that believe same-sex relationships are always wrong is far higher than the proportion of Liberals that believe the same thing. While approximately 29 percent of Liberals believe same-sex relations are always wrong, 45 percent of conservatives believe same-sex is wrong, nearly double that of the Liberals in the sample.
+
+It is also important that the GSS data being used contains data gathered since 1972. Since this time, it is highly likely opinions on this issue in particular have developed significantly, and the figure above cannot be relied upon to describe opinions about same-sex relationships now. 
 
 ### Age
 
 ![](figures/age.jpg)
 
 Liberals tend to be younger than Conservatives, but not by much. The average Conservative in the dataset is 46.7 years old, while the average Liberal is 41.8 years old. Between Liberals and Conservatives, there is a lesser, but considerable effect size of 0.29.
+
+A CDF plot is also useful here in visualizing the distributions of age between the two groups. As with the above, Conservatives can be seen here to be slightly older than Liberals.
+
+<p align="center" style="margin-top:50px">
+  <img align="center" src="figures/age_cdf.jpg">
+</p>
 
 ## Conclusions
 
