@@ -10,6 +10,10 @@
 
 ### Opinions on same-sex relationships
 
+![Alt text](figures/homosex.jpg?raw=true "homosex")
+
 ### Age
+
+![Alt text](figures/age.jpg?raw=true "age")
 
 ## Conclusions
