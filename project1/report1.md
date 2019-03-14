@@ -6,15 +6,19 @@
 
 ### Attendance at religious events
 <p align="center">
-  <img src="figures/attend.jpg" alt="attend" width="650"/>
+  <img src="figures/attend.jpg" alt="attend" width="600"/>
 </p>
 
 ### Opinions on same-sex relationships
 
-![](figures/homosex.jpg)
+<p align="center">
+  <img src="figures/homosex.jpg" alt="attend" width="600"/>
+</p>
 
 ### Age
 
-![](figures/age.jpg){:height="36px" width="36px"}
+<p align="center">
+  <img src="figures/age.jpg" alt="attend" width="600"/>
+</p>
 
 ## Conclusions
