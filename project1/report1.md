@@ -20,19 +20,26 @@ After making this guess, and removing the variables' associated codewords, the t
 2. 'attend': How frequently does the respondent attend religious events?
 3. 'age': What is the respondent's age?
 
+The variables' relationships with conservativity is described in detail below, in order of how insightful I found them.
 
 ### Attendance at religious events
 
 ![](figures/attend.jpg)
 
+This trend is strictly increasing. Explanation of the frequency tiers, which are somewhat logarithmic in nature.
+
 ### Opinions on same-sex relationships
 
 ![](figures/homosex.jpg)
+
+Opinions on the matter are fairly polarized. Liberals seem split?
 
 ### Age
 
 ![](figures/age.jpg)
 
+Liberals tend to be younger than Conservatives. Not by much, though.
+
 ## Conclusions
 
-Although some of the trends explored here fit a lot of the generalizations we could’ve made already regarding what conservatives and liberals may hold different opinions on, exploring the data behind them exposes both trends that are not immediately obvious and some interesting nuances in the data itself. For one, I was unaware that there would any trend between attendance at religious events and conservativity, but data analysis here yields an effect size of 0.44 across frequency tiers ranging from 0 (for never having attended a religious event to 8 (for attending a religious event daily). After visualizing the trend, I could clearly observe a constant increase in frequency of attendance with increasing levels of conservativity. There're also a couple misconceptions perpetrated by the media we can test here. Analysis of the distribution of conservativity shows that there are actually more people that consider themselves moderate than liberals or conservatives combined, despite the fact the media portrays many Americans as having chosen a side. Although liberals are widely considered to be in support of same-sex relationships, the data reveals that liberals are actually quite split over the issue, with more liberals actually against same-sex relationships than in support of it.
+Although some of the trends explored here fit many generalizations we could’ve made already regarding what conservatives and liberals may hold different opinions on, exploring the data behind them exposes both trends that are not immediately obvious and some interesting nuances in the data itself. For one, I was unaware that there would any trend between attendance at religious events and conservativity, but data analysis here yields an effect size of 0.44 across frequency tiers ranging from 0 (for never having attended a religious event to 8 (for attending a religious event daily). After visualizing the trend, I could clearly observe a constant increase in frequency of attendance with increasing levels of conservativity. There're also a couple misconceptions perpetrated by the media we can test here. Analysis of the distribution of conservativity shows that there are actually more people that consider themselves moderate than liberals or conservatives combined, despite the fact the media portrays many Americans as having chosen a side. Although liberals are widely considered to be in support of same-sex relationships, the data reveals that liberals are actually quite split over the issue, with more liberals actually against same-sex relationships than in support of it.
