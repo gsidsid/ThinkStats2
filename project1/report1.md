@@ -44,7 +44,9 @@ Liberals tend to be younger than Conservatives, but not by much. The average Con
 
 A CDF plot is also useful here in visualizing the distributions of age between the two groups. As with the above, Conservatives can be seen here to be slightly older than Liberals.
 
-<img align="center" src="figures/age_cdf.jpg">
+<p align="center">
+  <img align="center" src="figures/age_cdf.jpg">
+</p>
 
 ## Conclusions
 
