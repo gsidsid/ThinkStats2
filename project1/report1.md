@@ -5,20 +5,15 @@
 ## Trends
 
 ### Attendance at religious events
-<p align="left">
-  <img src="figures/attend.jpg" alt="attend" width="800"/>
-</p>
+
+![](figures/attend.jpg)
 
 ### Opinions on same-sex relationships
 
-<p align="left">
-  <img src="figures/homosex.jpg" alt="attend" width="800"/>
-</p>
+![](figures/homosex.jpg)
 
 ### Age
 
-<p align="left">
-  <img src="figures/age.jpg" alt="attend" width="800"/>
-</p>
+![](figures/age.jpg)
 
 ## Conclusions
