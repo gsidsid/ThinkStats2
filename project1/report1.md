@@ -26,7 +26,7 @@ The variables' relationships with conservativity are described in detail below, 
 
 ![](figures/attend.jpg)
 
-This was a variable I didn't expect to see in the data nearly as much as I did the others described here. There is a strictly
+This was a variable I didn't expect to see in the data nearly as much as I did the others described here. The more conservative a respondent is, the more likely they are to attend religious events with greater frequency. There is a quite marked trend here, as the frequency of attendance appears to strictly increase with conservativity.
 
 ### Opinions on same-sex relationships
 
@@ -42,11 +42,9 @@ It is also important that the GSS data being used contains data gathered since 1
 
 Liberals tend to be younger than Conservatives, but not by much. The average Conservative in the dataset is 46.7 years old, while the average Liberal is 41.8 years old. Between Liberals and Conservatives, there is a lesser, but considerable effect size of 0.29.
 
-
-
 A CDF plot is also useful here in visualizing the distributions of age between the two groups. As with the above, Conservatives can be seen here to be slightly older than Liberals.
 
-<p align="center">
+<p align="center" style="margin-top:50px">
   <img align="center" src="figures/age_cdf.jpg">
 </p>
 
