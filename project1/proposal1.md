@@ -1,11 +1,8 @@
-# Trends in student mental health in the last decade
-### Siddharth Garimella
+# What values do self-identifying conservatives and liberals differ on most?
+### Data Science Project 1, Siddharth Garimella
 
+In a US Government class I took in high school, one of the first concepts my professor tried to teach the class was the faultiness/inaccuracy of the distinction between a "liberal" and a "conservative". These terms are often used loosely, and tend to be associated with slightly different sets of values and ideals for different people. For the purposes of media, the two groups have been pit against each other as if the ideals/values of each group are in complete opposition to each other, and it is likely this process has created broader misconceptions pertaining to each group.
 
-I plan on working with the general social survey data and any other datasets made available to me via heri.ucla.edu. Much data is already collected for me, and available online. The data is avaliable for disclosure, but should probably not be used to attempt to affect or otherwise impact present student mental health in any way.
+I want to use the data science techniques taught thus far to attempt to gain a better understanding of how much specific values/views contribute to people's political identifications on the "liberal"-"conservative" spectrum.
 
-# Questions to explore
-
-1. How have students' opinions of their mental health changed over the past decade?
-2. Which age group is most responsible for a change, if any, in this sentiment?
-
+Some potential ethical issues of this analysis include incendiary conclusion framing and taking a side inadvertently during the analysis conducted.
