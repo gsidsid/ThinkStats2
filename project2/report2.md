@@ -36,6 +36,8 @@ One way we can “guess” how long a business on Yelp could have lasted is by f
 
 ### Survival curves across Yelp rating tiers
 
+#### The rating distribution
+
 There are nine unique ratings users can issue in a review on Yelp. They are 1 through 5 (inclusive), in intervals of half a star. An analysis of the distribution of ratings on Yelp shows that there are not all that many low star reviews on Yelp, with the most common rating being 4.
 
 <p align="center">
@@ -46,9 +48,13 @@ Removing duplicate businesses is important as it reduces the effect chain restau
 
 While it would normally first be best to understand how ratings are distributed in the dataset using a CDF, the data is right-censored, meaning we don't really know how long the lifespans of businesses that are currently still open will last. It is better to use survival curves to compare the data.
 
+#### Comparing survival curves
+
 ![alt text](figures/bsurv_ratings_tiered.jpg "Survival of rating tiers")
 
 This results obtained here are quite strange, and suggest two things we wouldn't otherwise expect. First, the survival curves for the highest rated businesses and lowest rated businesses on Yelp are nearly identical, suggesting that there exists an equal likelihood of closure between the two groups. This makes no sense, as we would normally expect a business with very bad ratings to be at higher risk of closure than one with very good ratings. Second, it suggests average rated businesses are at higher risk of closure than either extreme. The survival curves for ratings between 2 and 3 seem close together, but show a greater probability of closure for earlier times than businesses with either very bad or very good reviews.
+
+#### Looking deeper
 
 In investigating the results obtained above, the first step I took was to learn more about each tier. No tier had a surprisingly low number of associated businesses, which made low sample size not as much of a concern. On average, there were about 2000 businesses at each tier in the above analysis. 
 
