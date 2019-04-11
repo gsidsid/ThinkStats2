@@ -50,7 +50,7 @@ In investigating the results obtained above, the first step I took was to learn 
 
 The next step was to understand the highest and lowest rating survival curves independently. Of the nine discrete ratings users can provide on Yelp, the tier described by the highest tier on the plot from above captures the 4.5 and 5 star ratings. Could one of these ratings be throwing off the tier's survival curve?
 
-![alt text](figures/surv_top_ratings.jpg "Survival of top rating tiers")
+![alt text](figures/bsurv_top_ratings.jpg "Survival of top rating tiers")
 
 The survival curves above suggest there is quite a large stratification within the top tier itself, with the 5 star distribution consistently having a much lower probability of closure than the other ratings. Looking at the rating tier as a whole though, it appears highly unlikely business closures could actually behave this differently between a 4.5 and a 5.
 
