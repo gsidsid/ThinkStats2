@@ -26,7 +26,7 @@ The Yelp Academic dataset is a subset of Yelp's businesses, reviews, and user da
 
 ### What types of businesses use Yelp
 
-Prior to any analysis of business impact, we need to know about what businesses/industries are being inspected. It's fair to assume that most of the businesses on Yelp are customer-facing (that's why they're there).  
+Prior to any analysis of business impact, we need to know about what businesses/industries are being inspected. It's fair to assume that most of the businesses on Yelp are customer-facing (that's why they're there). More specifically, analysis of the tags used by each business reveals that there are more restaurants in the dataset than any other type of business. 
 
 ### Guessing a business's lifespan
 
@@ -35,3 +35,18 @@ The dataset itself does not explicitly provide information about how long busine
 One way we can “guess” how long a business on Yelp could have lasted is by finding the difference between the newest and oldest Yelp reviews for that business. This technique is used to analyze the potential impact of negative Yelp ratings later in the report, and it is important to note while reading that analysis that I’ve assumed this difference could provide a good estimate for actual closed businesses’ lifespans.
 
 ### Survival curves across Yelp rating tiers
+
+It's first best to understand how ratings are distributed in the dataset.
+
+
+A rating of four stars seems to be the most common rating given to businesses on Yelp. A CDF shows this distribution well.
+
+
+There are nine unique ratings users can issue in a review on Yelp. They are 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, and 5. However, as the difference between 4.5 and 5 may not matter much for the closure of a business, I create rating tiers using which differences in closures due to ratings could be better understood. The rating tiers are based off the distributions of each rating. 
+
+
+
+The above CDF illustrates the stratification in the various tiers' distributions. 
+
+
+
