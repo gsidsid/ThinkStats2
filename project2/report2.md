@@ -36,13 +36,13 @@ One way we can “guess” how long a business on Yelp could have lasted is by f
 
 There are nine unique ratings users can issue in a review on Yelp. They are 1 through 5 (inclusive), with intervals of half a star. An analysis of the distribution of ratings on Yelp shows that there are not all that many low star reviews on Yelp, with the most common rating being 4.
 
-![alt text](figures/cdf_ratings.jpg "CDF of ratings")
+![alt text](figures/bcdf_ratings.jpg "CDF of ratings")
 
 Removing duplicate businesses is important as it reduces the effect chain restaurants will have on the data. Such businesses are highly unlikely to close, and would have a disproportionate impact on the analysis due to the class size effect.
 
 While it would normally first be best to understand how ratings are distributed in the dataset using a CDF, the data is right-censored, meaning we don't really know how long the lifespans of businesses that are currently still open will last. It is better to use survival curves to compare the data.
 
-![alt text](figures/surv_rating_groups.jpg "Survival of rating tiers")
+![alt text](figures/bsurv_rating_tiered.jpg "Survival of rating tiers")
 
 This results obtained here are quite strange, and suggest two things we wouldn't otherwise expect. First, the survival curves for the highest rated businesses and lowest rated businesses on Yelp are nearly identical, suggesting that there exists an equal likelihood of closure between the two groups. This makes no sense, as we would normally expect a business with very bad ratings to be at higher risk of closure than one with very good ratings. Second, it suggests average rated businesses are at higher risk of closure than either extreme. The survival curves for ratings between 2 and 3 seem close together, but show a greater probability of closure for earlier times than businesses with either very bad or very good reviews.
 
@@ -56,7 +56,7 @@ The survival curves above suggest there is quite a large stratification within t
 
 Considering the differences within the top tier, it is also possible that the other tiers may have misrepresented certain ratings as well. 
 
-![alt text](figures/surv_all.jpg "Survival at all rating tiers")
+![alt text](figures/bsurv_ratings_all.jpg "Survival at all rating tiers")
 
 There are three groupings visible here, businesses rated between 3 and 4, businesses rated 2, 2.5, or 4.5, and businesses rated 5. Ultimately, the curves for mid-ratings (between 3 and 4) and for top-ratings of 5 make sense relative to each other, but it remains unclear why businesses rated so poorly in the 2, 2.5, 4.5 group do better than the mid-ratings group, as well as why businesses with ratings of 4.5 are grouped with 2 and 2.5 star businesses. 
 
