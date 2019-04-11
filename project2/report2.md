@@ -34,7 +34,7 @@ One way we can “guess” how long a business on Yelp could have lasted is by f
 
 ### Survival curves across Yelp rating tiers
 
-There are nine unique ratings users can issue in a review on Yelp. They are 1 through 5 (inclusive), with intervals of half a star. An analysis of the distribution of ratings on Yelp shows that there are not all that many low star reviews on Yelp, with the most common rating being 4.
+There are nine unique ratings users can issue in a review on Yelp. They are 1 through 5 (inclusive), in intervals of half a star. An analysis of the distribution of ratings on Yelp shows that there are not all that many low star reviews on Yelp, with the most common rating being 4.
 
 ![alt text](figures/bcdf_ratings.jpg "CDF of ratings")
 
