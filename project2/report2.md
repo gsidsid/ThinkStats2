@@ -23,6 +23,7 @@ at certain times in a business's "lifespan".
 The Yelp Academic dataset is a subset of Yelp's businesses, reviews, and user data. It was originally put together for the Yelp Dataset Challenge on Kaggle, which was a chance for students to conduct research or analysis on Yelp's data and share their discoveries. The dataset contains information about 174,000 businesses across 11 metropolitan areas in four countries. For these businesses, 5.2 million reviews are provided, complete with the review text, date, and rating in stars.
 
 You can read more about the dataset here:
+
 https://www.kaggle.com/yelp-dataset/yelp-dataset#yelp_academic_dataset_business.json
 
 ### What types of businesses use Yelp
