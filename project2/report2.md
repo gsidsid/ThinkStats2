@@ -1,6 +1,8 @@
 # Estimating the impact of negative Yelp reviews using business closures
 Siddharth Garimella
 
+
+
 I grew up in a neighborhood in which quite a few businesses came and went in the blink of an eye.
 Either they resonated with nearby residents, joining a select few other local mainstays, or they would swiftly be forced to close.
 
