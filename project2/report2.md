@@ -36,13 +36,13 @@ One way we can “guess” how long a business on Yelp could have lasted is by f
 
 There are nine unique ratings users can issue in a review on Yelp. They are 1 through 5 (inclusive), with intervals of half a star. An analysis of the distribution of ratings on Yelp shows that there are not all that many low star reviews on Yelp, with the most common rating being 4.
 
-![alt text](figures/cdf_ratings.png "CDF of ratings")
+![alt text](figures/cdf_ratings.jpg "CDF of ratings")
 
 Removing duplicate businesses is important as it reduces the effect chain restaurants will have on the data. Such businesses are highly unlikely to close, and would have a disproportionate impact on the analysis due to the class size effect.
 
 While it would normally first be best to understand how ratings are distributed in the dataset using a CDF, the data is right-censored, meaning we don't really know how long the lifespans of businesses that are currently still open will last. It is better to use survival curves to compare the data.
 
-![alt text](figures/surv_rating_groups.png "Survival of rating tiers")
+![alt text](figures/surv_rating_groups.jpg "Survival of rating tiers")
 
 This plot is quite strange, as the 
 
