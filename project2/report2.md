@@ -72,7 +72,8 @@ There are three groupings visible here, businesses rated between 3 and 4, busine
 
 ## Conclusions
 
-Uh, unclear?
+After using as much data as possible from the Yelp Academic dataset to derive business lifespans, around 13,000 lifespans were calculated for all rating tiers. Survival curves for each rating tier were generated using Kaplan-Meier estimation, and compared with each other. Confusingly, the survival curves of the best rated businesses and the worst rated businesses were highly similar, contrary to the expected stratification. After some further analysis of the way I had defined rating tiers for clear plotting, I found that the survival curves within each tier were not self-similar, and in fact there were three overall groups of data with distinguishable survival curves. The resulting groupings, however, do not make much sense. Either these groups should be scrutinized further for relationships, or there is something flawed in my approach to this analysis itself.
+
 
 [Read more](project2.ipynb)
 
