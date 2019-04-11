@@ -44,16 +44,24 @@ While it would normally first be best to understand how ratings are distributed 
 
 ![alt text](figures/surv_rating_groups.jpg "Survival of rating tiers")
 
-This plot is quite strange, as the 
+This results obtained here are quite strange, and suggest two things we wouldn't otherwise expect. First, the survival curves for the highest rated businesses and lowest rated businesses on Yelp are nearly identical, suggesting that there exists an equal likelihood of closure between the two groups. This makes no sense, as we would normally expect a business with very bad ratings to be at higher risk of closure than one with very good ratings. Second, it suggests average rated businesses are at higher risk of closure than either extreme. The survival curves for ratings between 2 and 3 seem close together, but show a greater probability of closure for earlier times than businesses with either very bad or very good reviews.
 
-A rating of four stars seems to be the most common rating given to businesses on Yelp. A CDF shows this distribution well.
+In investigating the results obtained above, the first step I took was to learn more about each tier. No tier had a surprisingly low number of associated businesses, which made low sample size not as much of a concern. On average, there were about 2000 businesses at each tier in the above analysis. 
 
+The next step was to understand the highest and lowest rating survival curves independently. Of the nine discrete ratings users can provide on Yelp, the tier described by the highest tier on the plot from above captures the 4.5 and 5 star ratings. Could one of these ratings be throwing off the tier's survival curve?
 
- However, as the difference between 4.5 and 5 may not matter much for the closure of a business, I create rating tiers using which differences in closures due to ratings could be better understood. The rating tiers are based off the distributions of each rating. 
+![alt text](figures/surv_top_ratings.jpg "Survival of top rating tiers")
 
+The survival curves above suggest there is quite a large stratification within the top tier itself, with the 5 star distribution consistently having a much lower probability of closure than the other ratings. Looking at the rating tier as a whole though, it appears highly unlikely business closures could actually behave this differently between a 4.5 and a 5.
 
+Considering the differences within the top tier, it is also possible that the other tiers may have misrepresented certain ratings as well. 
 
-The above CDF illustrates the stratification in the various tiers' distributions. 
+![alt text](figures/surv_all.jpg "Survival at all rating tiers")
+
+There are three groupings visible here, businesses rated between 3 and 4, businesses rated 2, 2.5, or 4.5, and businesses rated 5. Ultimately, the curves for mid-ratings (between 3 and 4) and for top-ratings of 5 make sense relative to each other, but it remains unclear why businesses rated so poorly in the 2, 2.5, 4.5 group do better than the mid-ratings group, as well as why businesses with ratings of 4.5 are grouped with 2 and 2.5 star businesses. 
+
+[Read more](project2.ipynb)
+
 
 
 
