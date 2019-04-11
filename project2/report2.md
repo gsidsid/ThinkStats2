@@ -24,9 +24,7 @@ The Yelp Academic dataset is a subset of Yelp's businesses, reviews, and user da
 
 [Read more about the dataset here.](https://www.kaggle.com/yelp-dataset/yelp-dataset#yelp_academic_dataset_business.json)
 
-### What types of businesses use Yelp
-
-Prior to any analysis of business impact, we need to know about what businesses/industries are being inspected. It's fair to assume that most of the businesses on Yelp are customer-facing (that's why they're there). More specifically, analysis of the tags used by each business reveals that there are more restaurants in the dataset than any other type of business. 
+Most of the businesses on Yelp are customer-facing (that's why they're there). More specifically, analysis of the tags used by each business reveals that there are more restaurants in the dataset than any other type of business. 
 
 ### Guessing a business's lifespan
 
