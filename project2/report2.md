@@ -42,7 +42,7 @@ Removing duplicate businesses is important as it reduces the effect chain restau
 
 While it would normally first be best to understand how ratings are distributed in the dataset using a CDF, the data is right-censored, meaning we don't really know how long the lifespans of businesses that are currently still open will last. It is better to use survival curves to compare the data.
 
-![alt text](figures/bsurv_rating_tiered.jpg "Survival of rating tiers")
+![alt text](figures/bsurv_ratings_tiered.jpg "Survival of rating tiers")
 
 This results obtained here are quite strange, and suggest two things we wouldn't otherwise expect. First, the survival curves for the highest rated businesses and lowest rated businesses on Yelp are nearly identical, suggesting that there exists an equal likelihood of closure between the two groups. This makes no sense, as we would normally expect a business with very bad ratings to be at higher risk of closure than one with very good ratings. Second, it suggests average rated businesses are at higher risk of closure than either extreme. The survival curves for ratings between 2 and 3 seem close together, but show a greater probability of closure for earlier times than businesses with either very bad or very good reviews.
 
