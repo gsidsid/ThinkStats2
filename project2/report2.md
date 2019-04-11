@@ -26,6 +26,8 @@ The Yelp Academic dataset is a subset of Yelp's businesses, reviews, and user da
 
 Most of the businesses on Yelp are customer-facing (that's why they're there). More specifically, analysis of the tags used by each business reveals that there are more restaurants in the dataset than any other type of business. 
 
+The time period during which the dataset was collected is also very important to understand the nature of a business's closure. The first review in the dataset was published as of October 2004, and the latest review in the dataset is in 2017.
+
 ### Guessing a business's lifespan
 
 The dataset itself does not explicitly provide information about how long businesses last. Instead, all that is known for each business is whether the business is open or closed at the time of the dataset’s publication, and the dates of every review provided for that business on Yelp. 
