@@ -22,11 +22,9 @@ at certain times in a business's "lifespan".
 
 The Yelp Academic dataset is a subset of Yelp's businesses, reviews, and user data. It was originally put together for the Yelp Dataset Challenge on Kaggle, which was a chance for students to conduct research or analysis on Yelp's data and share their discoveries. The dataset contains information about 174,000 businesses across 11 metropolitan areas in four countries. For these businesses, 5.2 million reviews are provided, complete with the review text, date, and rating in stars.
 
+Most of the businesses on Yelp are customer-facing (that's why they're there). More specifically, analysis of the tags used by each business reveals that there are more restaurants in the dataset than any other type of business. The data was collected between 2004 and 2017.
+
 [Read more about the dataset here.](https://www.kaggle.com/yelp-dataset/yelp-dataset#yelp_academic_dataset_business.json)
-
-Most of the businesses on Yelp are customer-facing (that's why they're there). More specifically, analysis of the tags used by each business reveals that there are more restaurants in the dataset than any other type of business. 
-
-The time period during which the dataset was collected is also very important to understand the nature of a business's closure. The first review in the dataset was published as of October 2004, and the latest review in the dataset is in 2017.
 
 ### Guessing a business's lifespan
 
@@ -36,13 +34,22 @@ One way we can “guess” how long a business on Yelp could have lasted is by f
 
 ### Survival curves across Yelp rating tiers
 
-It's first best to understand how ratings are distributed in the dataset.
+There are nine unique ratings users can issue in a review on Yelp. They are 1 through 5 (inclusive), with intervals of half a star. An analysis of the distribution of ratings on Yelp shows that there are not all that many low star reviews on Yelp, with the most common rating being 4.
 
+![alt text](figures/cdf_ratings.png "CDF of ratings")
+
+Removing duplicate businesses is important as it reduces the effect chain restaurants will have on the data. Such businesses are highly unlikely to close, and would have a disproportionate impact on the analysis due to the class size effect.
+
+While it would normally first be best to understand how ratings are distributed in the dataset using a CDF, the data is right-censored, meaning we don't really know how long the lifespans of businesses that are currently still open will last. It is better to use survival curves to compare the data.
+
+![alt text](figures/surv_rating_groups.png "Survival of rating tiers")
+
+This plot is quite strange, as the 
 
 A rating of four stars seems to be the most common rating given to businesses on Yelp. A CDF shows this distribution well.
 
 
-There are nine unique ratings users can issue in a review on Yelp. They are 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, and 5. However, as the difference between 4.5 and 5 may not matter much for the closure of a business, I create rating tiers using which differences in closures due to ratings could be better understood. The rating tiers are based off the distributions of each rating. 
+ However, as the difference between 4.5 and 5 may not matter much for the closure of a business, I create rating tiers using which differences in closures due to ratings could be better understood. The rating tiers are based off the distributions of each rating. 
 
 
 
