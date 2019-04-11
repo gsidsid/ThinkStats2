@@ -14,7 +14,7 @@ But what happens when the ratings go bad?
 Do bad average ratings early on in a company's Yelp page deter customers enough 
 to make a measurable financial impact on the business? To answer these questions, 
 I run a Survival Analysis using the Yelp Academic dataset for different average ratings
-on Yelp, and compare the output to find the difference in probabilities in closure 
+on Yelp, and compare the output to find the difference in probabilities of closure 
 at certain times in a business's "lifespan".
 
 
@@ -22,16 +22,16 @@ at certain times in a business's "lifespan".
 
 The Yelp Academic dataset is a subset of Yelp's businesses, reviews, and user data. It was originally put together for the Yelp Dataset Challenge on Kaggle, which was a chance for students to conduct research or analysis on Yelp's data and share their discoveries. The dataset contains information about 174,000 businesses across 11 metropolitan areas in four countries. For these businesses, 5.2 million reviews are provided, complete with the review text, date, and rating in stars.
 
-You can read more about the dataset here:
-
-https://www.kaggle.com/yelp-dataset/yelp-dataset#yelp_academic_dataset_business.json
+[Read more about the dataset here.](https://www.kaggle.com/yelp-dataset/yelp-dataset#yelp_academic_dataset_business.json)
 
 ### What types of businesses use Yelp
 
-
+Prior to any analysis of business impact, we need to know about what businesses/industries are being inspected. It's fair to assume that most of the businesses on Yelp are customer-facing (that's why they're there).  
 
 ### Guessing a business's lifespan
 
+The dataset itself does not explicitly provide information about how long businesses last. Instead, all that is known for each business is whether the business is open or closed at the time of the dataset’s publication, and the dates of every review provided for that business on Yelp. 
 
+One way we can “guess” how long a business on Yelp could have lasted is by finding the difference between the newest and oldest Yelp reviews for that business. This technique is used to analyze the potential impact of negative Yelp ratings later in the report, and it is important to note while reading that analysis that I’ve assumed this difference could provide a good estimate for actual closed businesses’ lifespans.
 
 ### Survival curves across Yelp rating tiers
