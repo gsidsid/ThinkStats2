@@ -6,7 +6,7 @@ Heart disease is the leading cause of death for both men and women, and improvem
 ### About the data
 The dataset is available online on Datadriven's website, and has 14 features, with information ranging from patient identification to electrocardiographic data.  There are only 180 patients described in the training set, making the data quite small. The average age of patients described by the data is 55, and slightly over half are male. Predictions are desired for 90 patients for model evaluation, yielding a 0.66-0.33 train-test split. 
 
-![](https://github.com/gsidsid/ThinkStats2/blob/master/project3/calibrated.JPG)
+![](https://github.com/gsidsid/ThinkStats2/blob/master/project3/scatter.JPG)
 
 Relationships between features in the data appear highly non-linear, and there are no clear correlations that can be made between any two variables in the data.
 
