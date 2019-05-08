@@ -1,4 +1,4 @@
-## Data Driven Heart Disease Prediction
+## Predicting the likelihood of heart disease
 Siddharth Garimella
 
 Heart disease kills approximately 610,000 Americans every year, and improvements in our ability to predict its presence early on could lead to better outcomes for many patients. Using the data from the Cleveland Heart Disease database, I aim to produce a model capable of estimating the probability a patient has heart disease given a limited set of biomedical information. 
