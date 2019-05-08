@@ -1,7 +1,7 @@
 ## Data Driven Heart Disease Prediction
 Siddharth Garimella
 
-Heart disease is the leading cause of death for both men and women, and improvements in our ability to predict its presence early on could lead to better outcomes for many patients. Using the data from the Cleveland Heart Disease database, I aim to produce a model capable of estimating the probability a patient has heart disease given a limited set of biomedical information. 
+Heart disease kills approximately 610,000 Americans every year, and improvements in our ability to predict its presence early on could lead to better outcomes for many patients. Using the data from the Cleveland Heart Disease database, I aim to produce a model capable of estimating the probability a patient has heart disease given a limited set of biomedical information. 
 
 ### About the data
 The dataset is available online on Datadriven's website, and has 14 features, with information ranging from patient identification to electrocardiographic data.  There are only 180 patients described in the training set, making the data quite small. The average age of patients described by the data is 55, and slightly over half are male. Predictions are desired for 90 patients for model evaluation, yielding a 0.66-0.33 train-test split. 
