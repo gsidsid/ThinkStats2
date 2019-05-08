@@ -6,7 +6,7 @@ Heart disease is the leading cause of death for both men and women, and improvem
 ### About the data
 The dataset is available online on Datadriven's website, and has 14 features, with information ranging from patient identification to electrocardiographic data.  There are only 180 patients described in the training set, making the data quite small. The average age of patients described by the data is 55, and slightly over half are male. Predictions are desired for 90 patients for model evaluation, yielding a 0.66-0.33 train-test split. 
 
-[](scatter.jpg)
+[](scatter.JPG)
 
 Relationships between features in the data appear highly non-linear, and there are no clear correlations that can be made between any two variables in the data.
 
@@ -31,13 +31,13 @@ For each model, I first conducted a random search across a large space of all po
 
 To seek out more substantial improvements to the performance of my models, I revisited the data to identify if there were any features or feature combinations that I could synthesize myself. Using the same technique to evaluate feature importances I used while exploring the data, I multiplied every pair of columns in the dataset, took the top 3 most important features, and appended them to every patient in the training set. This method found some interesting potential new features, and contributed to minor increases in accuracy for some models. 
 
-[](feats.jpg)
+[](feats.JPG)
 
 ### Calibration
 
 In the end, the Random Forest algorithm and Logistic Regression modeled the data best, scoring highest on Drivendata’s website. After my initial submission, though, I decided to revisit the probability score distributions for my models to make my models decide the probability of heart disease in patients more conservatively, so as to avoid the harsh penalty imposed on confident incorrect classifications the log-loss metric used by Drivendata evaluated models with. After applying a sigmoid calibration technique available in the `sklearn` library, models output probability scores that were less confident overall.
 
-[](calibrated.jpg)
+[](calibrated.JPG)
 
 Resubmission of the calibrated model output yielded unimpressive results. There are two reasons I believe this may be the case. First, it is possible the probability distribution expected by Drivendata has peaks near zero and one. In this case, mostly confident predictions are being expected, and the aggregate error of all the low confidence predictions is resulting in a lower score. Second, the calibration itself may be too harsh. In this case, less confidence is expected, but the probability scores were over adjusted.
 
