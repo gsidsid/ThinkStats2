@@ -7,4 +7,4 @@ of parameters that allow each model to score best, I selected the highest scorer
 investigated the distributions of probability scores output by each model, and attempted to make each model less certain in the 
 probabilities it outputs. In practice, this didn't work well, and I provide my reasoning for why this may be the case.
 
-[Read more](report3.ipynb)
+[Read more](report3.md)
