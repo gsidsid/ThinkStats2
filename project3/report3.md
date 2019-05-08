@@ -1,4 +1,4 @@
-# Data driven heart disease prediction
+# Data Driven Heart Disease Prediction
 Siddharth Garimella
 
 Heart disease is the leading cause of death for both men and women, and improvements in our ability to predict its presence early on could lead to better outcomes for many patients. Using the data from the Cleveland Heart Disease database, I aim to produce a model capable of estimating the probability a patient has heart disease given a limited set of biomedical information. 
