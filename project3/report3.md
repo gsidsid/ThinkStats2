@@ -37,7 +37,7 @@ To seek out more substantial improvements to the performance of my models, I rev
 
 In the end, the Random Forest algorithm and Logistic Regression modeled the data best, scoring highest on Drivendata’s website. After my initial submission, though, I decided to revisit the probability score distributions for my models to make my models decide the probability of heart disease in patients more conservatively, so as to avoid the harsh penalty imposed on confident incorrect classifications the log-loss metric used by Drivendata evaluated models with. After applying a sigmoid calibration technique available in the `sklearn` library, models output probability scores that were less confident overall.
 
-[](calibration.jpg)
+[](calibrated.jpg)
 
 Resubmission of the calibrated model output yielded unimpressive results. There are two reasons I believe this may be the case. First, it is possible the probability distribution expected by Drivendata has peaks near zero and one. In this case, mostly confident predictions are being expected, and the aggregate error of all the low confidence predictions is resulting in a lower score. Second, the calibration itself may be too harsh. In this case, less confidence is expected, but the probability scores were over adjusted.
 
