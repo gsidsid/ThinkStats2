@@ -18,7 +18,8 @@ Chest pain and whether or not the patient has had a “reversible defect” or �
 
 ## Trying out models
 
-I started by testing nine different approaches to modeling the data, and continued my analysis with only the highest scoring ones. Because the final submission to Drivendata is evaluated not by classification accuracy but by log-loss of probability scores, I made plots of the probability distributions for each model. I found that these distributions varied greatly, with some models producing higher confidence classifications on average than others. In this context, a “high confidence” prediction is defined as a prediction with a probability score close to zero or one. This suggests the model is near certain a classified patient either has or does not have heart disease.
+I started by testing nine different approaches to modeling the data, and continued my analysis with only the highest scoring ones. Because the final submission to Drivendata is evaluated not by classification accuracy but by log-loss of probability scores, I made plots of the probability distributions for each model. I found that these distributions varied greatly, with some models producing higher confidence classifications on average than others. In this context, a “high confidence” prediction is defined as a prediction with a probability score close to zero or one. This suggests a model is near certain a classified patient either has or does not have heart disease.
+
 The plots gave me some insight into how each model could end up scoring on the Drivendata challenge, but before my models could be evaluated, I needed to tune them.
 
 ## Tuning 
